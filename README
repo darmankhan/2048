@@ -1,0 +1,13 @@
+ReadMe Project 1
+
+
+Collaborators: Darman Khan (dkhan2), Bahawar Dhillon  (bdhillon)
+
+There are two classes, one that creates a  Jframe which will act as our panel for the key listener and another class that has the code for the logic of the game. The game works by using a 2D array and then using for loops each move is executed. Comments are added to explain what each for loop does. The game tests several conditions each through a different method with appropriate names. To check if game is over or not, we test whether all cells are filled and whether a valid move is possible. To check if we need to add a new number, after each move we test if there are empty cells. To check if a move is valid we check if two adjacent cells have the same value and if there is an empty adjacent cell to any cell. 
+
+After each move the game checks the value of all arrays and sees if we have reached 2048 or not, if yes the game is won and restarted. 
+
+Commands to restart and quit the game have been added. 
+
+
+To run the game, launch the game class. Ensure that the mouse pointer is focused on the panel that is created for the game to detect key strokes, and enjoy.
